@@ -6,7 +6,7 @@ int main(){
     int bit;
     printf("enter the kth bit which you want to set : ");
     scanf("%d" , &bit);
-    int shift = number | 1<<(bit -1);
+    int shift = number | 1<<bit;
     printf("the value after setting %d th bit is : %d" ,bit , shift);
     return 0;
 }
